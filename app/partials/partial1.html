@@ -1,1 +1,43 @@
-<p>This is the partial for view 1.</p>
+<p>Pets</p>
+
+<div class="container">
+    <div ng-repeat="pet in pets.pets.collected" class="row">
+        <div class="span3">
+            <p>{{pet.name}}</p>
+        </div>
+        <div class="span1">
+            <p>{{pet.stats.level}}</p>
+        </div>
+        <div class="span1">
+            <p>{{pet.qualityId}}</p>
+        </div>
+        <div class="span1">
+            <p>{{pet.stats.breedId}}</p>
+        </div>
+        <div class="span1">
+            <p>{{pet.stats.health}}</p>
+        </div>
+        <div class="span1">
+            <p>{{pet.stats.power}}</p>
+        </div>
+        <div class="span1">
+            <p>{{pet.stats.speed}}</p>
+        </div>
+    </div>
+</div>
+
+<!--"name": "Celestial Dragon",-->
+<!--"spellId": 75613,-->
+<!--"creatureId": 40624,-->
+<!--"itemId": 54810,-->
+<!--"qualityId": 3,-->
+<!--"icon": "inv_pet_celestialdragon",-->
+<!--"stats": {-->
+<!--"speciesId": 255,-->
+<!--"breedId": 6,-->
+<!--"petQualityId": 3,-->
+<!--"level": 25,-->
+<!--"health": 1644,-->
+<!--"power": 292,-->
+<!--"speed": 244-->
+<!--}-->
